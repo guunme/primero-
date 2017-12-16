@@ -1,0 +1,26 @@
+header {
+  .title {
+    font-size: 3rem;
+  }
+
+  .nav {
+    text-transform: uppercase;
+
+    i {
+      color: $gray-500;
+    }
+
+    a {
+      text-decoration: none;
+      color: $black;
+      
+      &:visited {
+        color: $black;
+      }
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}

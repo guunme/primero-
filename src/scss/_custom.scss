@@ -1,0 +1,26 @@
+body {
+  overflow-x: hidden;
+  background: url('../images/bg-home-edited.jpg');
+  background-repeat: no-repeat;
+  background-size: 2000px auto;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+a {
+  cursor: pointer;
+
+  button {
+    cursor: pointer;
+  }
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
